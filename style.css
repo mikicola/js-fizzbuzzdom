@@ -6,8 +6,29 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategrey;
+}
+
+#container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 h1{
-    text-align: center;
+}
+
+#boxes-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: bisque;
+    height: 5rem;
+    width: 5rem;
+    margin: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
